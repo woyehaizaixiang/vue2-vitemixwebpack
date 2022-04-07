@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vite --host",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -29,6 +29,8 @@
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
+    "vite": "^2.9.1",
+    "vite-plugin-vue2": "^1.9.3",
     "vue-template-compiler": "^2.6.11"
   }
 }
