@@ -13,7 +13,9 @@ export default defineConfig({
     entries: 'src/main.js'
   },
   plugins: [
-    createVuePlugin(),
+    createVuePlugin({
+      jsx: true,
+    }),
     createHtmlPlugin({
       pages: [
         {

@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script>
+<script lang="jsx">
 // @ is an alias to /src
 import HelloWorld from '../components/HelloWorld.vue'
 
@@ -15,6 +15,7 @@ export default {
     HelloWorld
   },
   created () {
+    console.log(<div></div>);
   }
 }
 </script>
